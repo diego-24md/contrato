@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishume - Contrato de Servicio</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="container" id="contrato">
+    <div class="header">
+      <img src="./img/ICONO  EN 3D g.png" alt="Logo Ishume">
+      <div class="info">
+        <h2>Xiomara H.</h2>
+        <p>Gerenta General</p>
+      </div>
+    </div>
+
+    <h2>CONTRATO DE SERVICIO</h2>
+
+    <label>Ciudad y Fecha:</label>
+    <input type="text" value="CHINCHA 09 DE 04 DEL 2025">
+
+    <label>Señor(a):</label>
+    <input type="text" value="Rosa Torres Pérez">
+
+    <div class="row">
+      <div>
+        <label>Celular:</label>
+        <input type="text" value="+51 944482260">
+      </div>
+      <div>
+        <label>Dirección:</label>
+        <input type="text" value="Urb. Rosedal A23 primera etapa (calle lima)">
+      </div>
+    </div>
+
+    <label>Evento:</label>
+    <input type="text" value="Quinceañera">
+
+    <label>Servicio:</label>
+    <input type="text" value="Fotografía y Video">
+
+    <label>Proforma:</label>
+    <input type="text" value="Proforma 3">
+
+    <div class="row">
+      <div>
+        <label>Fecha del evento:</label>
+        <input type="text" value="12 Abril">
+      </div>
+      <div>
+        <label>Hora:</label>
+        <input type="text" value="7:00 PM">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="checkbox-group">
+        <input type="checkbox" checked>
+        <label>Fotografía</label>
+      </div>
+      <div class="checkbox-group">
+        <input type="checkbox">
+        <label>Cuadro</label>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div>
+        <label>Monto total:</label>
+        <input type="text" value="S/.400">
+      </div>
+      <div>
+        <label>A cuenta:</label>
+        <input type="text" value="S/.100">
+      </div>
+      <div>
+        <label>Saldo:</label>
+        <input type="text" value="S/.300">
+      </div>
+    </div>
+
+    <h3>CONDICIONES:</h3>
+    <ul>
+      <li>La empresa no se responsabiliza por la suspensión del evento por causas externas.</li>
+      <li>La cancelación es del 50% al firmar el contrato y 50% restante el día del evento.</li>
+      <li>Si no se cumple con la cancelación, el adelanto se pierde.</li>
+      <li>Los viáticos del personal son responsabilidad del cliente según acuerdo.</li>
+      <li>La movilización del personal es previo acuerdo con la empresa.</li>
+    </ul>
+
+    <p class="warning">
+      * El cliente tiene 1 semana para realizar algún reclamo después de recibir el material. Pasado ese tiempo no hay
+      reclamo alguno. *
+    </p>
+    <div class="firmas">
+      <div>FIRMA DEL CLIENTE</div>
+      <div>FIRMA DEL SERVIDOR</div>
+    </div>
+
+    <div class="btn-group">
+      <button onclick="window.print()">Guardar como PDF</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</body>
+
+</html>
